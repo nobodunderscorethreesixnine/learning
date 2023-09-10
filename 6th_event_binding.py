@@ -6,7 +6,7 @@ from tkinter import ttk
 
 window = tk.Tk()
 window.title('event')
-window.geometry('400x400')
+window.geometry('500x500')
 
 text = tk.Text(window)
 text.pack()

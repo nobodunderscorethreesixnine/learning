@@ -29,6 +29,6 @@ entry.bind('<FocusIn>',lambda event:print('entry filled was selected'))
 entry.bind('<FocusOut>',lambda event:print('entry filled was unselected'))
 
 #exercise
-text.bind('<Shift-Mousewheel>',lambda event:print('MouseWheel')
+text.bind('<Shift-MouseWheel>',lambda event:print('MouseWheel'))
 
 window.mainloop()
